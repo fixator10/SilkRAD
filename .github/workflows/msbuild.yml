@@ -36,7 +36,7 @@ jobs:
     - name: cuda-toolkit
       uses: Jimver/cuda-toolkit@v0.2.11
       with:
-        cuda: '10.0'
+        cuda: '10.0.130'
 
     - name: Restore NuGet packages
       working-directory: ${{env.GITHUB_WORKSPACE}}
